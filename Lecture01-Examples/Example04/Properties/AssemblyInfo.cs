@@ -1,14 +1,15 @@
 ﻿using System.Reflection;
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // 組件的一般資訊是由下列的屬性集控制。
 // 變更這些屬性的值即可修改組件的相關
 // 資訊。
-[assembly: AssemblyTitle("StudentManagementLibrary")]
+[assembly: AssemblyTitle("Example04")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("StudentManagementLibrary")]
+[assembly: AssemblyProduct("Example04")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,9 +20,9 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // 下列 GUID 為專案公開 (Expose) 至 COM 時所要使用的 typelib ID
-[assembly: Guid("ed8b8d45-0801-4457-9c90-58f4cc96eb20")]
+[assembly: Guid("061f96b2-dbc3-44d5-9bb2-1785733ffed8")]
 
-// 組件的版本資訊由下列四個值所組成:
+// 組件的版本資訊由下列四個值所組成: 
 //
 //      主要版本
 //      次要版本
@@ -29,7 +30,7 @@ using System.Runtime.InteropServices;
 //      修訂編號
 //
 // 您可以指定所有的值，或將組建編號或修訂編號設為預設值
-//方法是使用 '*'，如下所示:
+// 指定為預設值: 
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]

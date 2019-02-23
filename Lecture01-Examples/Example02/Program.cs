@@ -1,13 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using StudentManagementLibrary;
+using System;
 
 namespace Example02
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             Student aStudent = new Student()
             {
@@ -15,11 +13,11 @@ namespace Example02
                 phone = "0912553444",
                 address = "新北市板橋區板橋車站",
             };
-            Console.WriteLine("學生姓名:{0}", "TEL:{1}", "address:{2}"
+            Console.WriteLine(
+                "學生姓名:{0}, TEL:{1}, address:{2}"
                 , aStudent.name
                 , aStudent.phone
                 , aStudent.address);
         }
     }
 }
-
