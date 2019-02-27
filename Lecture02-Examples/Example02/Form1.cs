@@ -28,7 +28,7 @@ namespace Example02
                 Height = 0.67f,
                 PowerUpCandy = 27,
                 PowerUpStardust = 3000,
-                EvolveCandy = 2500
+                EvolveCandy = 100
             };
             NameLabel.Text = pokemon.Name;
             HpLabel.Text = pokemon.CurrentHp.ToString() + "/" + pokemon.Hp + "HP";

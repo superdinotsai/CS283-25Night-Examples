@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-namespace PokemonLibrary
+namespace PokemonLibrary//C#程式基礎課程283期第二講part2
 {
     public class Pokemon
     {
@@ -16,5 +16,5 @@ namespace PokemonLibrary
         public int PowerUpStardust;
         public int PowerUpCandy;
         public int EvolveCandy;
-    }
+    }//做這些暱稱之前 先用excel匯總需要的資料
 }
